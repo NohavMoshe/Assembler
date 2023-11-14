@@ -1,0 +1,24 @@
+ ;wrong input file
+add r5
+hello: mov r0, STR
+inc  r5
+.data 5,	,-128
+	label : mov
+r5
+go r0,r6
+
+	add r5, #7
+jsr &STR	;checking
+
+.extern G;
+
+X: 	.string "abcd@s"
+	prn 8
+
+inc r4
+
+lea 5, r1
+
+sub r0 r2	
+mov r4, #5
+
